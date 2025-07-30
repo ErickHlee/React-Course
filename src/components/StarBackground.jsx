@@ -7,8 +7,16 @@ export const StarBackground = () => {
   useEffect(() => {
     generateStars();
     generateMeteors();
-  }, []);
 
+    // Adaptando de acordo com a resolução da tela
+    const handleResize = () => {
+      generateStars();
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   // Vamos adaptar a geração de estrelas de acordo com o tamanho do monitor
   const generateStars = () => {
     const numberOfStars = Math.floor(

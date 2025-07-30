@@ -1,5 +1,19 @@
 # React + Vite
 
+Configurando o ambiente:
+NPM INSTALL:
+
+```
+tailwindcss
+@tailwindcss/vite
+lucide-react - ícones
+react-router-dom
+tailwind-merge
+@radix-ui/react-toast
+class-variance-authority
+clsx
+```
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

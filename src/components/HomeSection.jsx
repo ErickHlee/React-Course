@@ -27,7 +27,7 @@ export const HomeSection = () => {
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a herf="projects" className="cosmic-button">
+            <a herf="projects" className="cosmic-button cursor-pointer">
               View My Work
             </a>
           </div>

@@ -71,13 +71,13 @@
 
 @layer base {
     :root {
-        --background: 210 50% 98%;
+        --background: 210 40% 98%;
         --foreground: 222 47% 11%;
 
-        -card: 0 0% 100%;
+        --card: 0 0% 100%;
 
         --primary: 250 47% 60%;
-        --primary-foreground: 210 50% 98%;
+        --primary-foreground: 210 40% 98%;
 
         --border: 214 32% 91%;
     }
@@ -99,7 +99,7 @@
         --background: 222 47% 4%;
         --foreground: 213 31% 91%;
 
-        -card: 222 47% 91%;
+        --card: 222 47% 8%;
 
         --primary: 250 65% 65%;
         --primary-foreground: 213 31% 91%;
@@ -112,19 +112,19 @@
     margin-inline: auto;
     padding-inline: 2rem;
 
-    @media (width: 640px;) {
+    @media (width>= 640px;) {
         max-width: 640px;
     }
-    @media (width: 768px;) {
+    @media (width>= 768px;) {
         max-width: 768px;
     }
-    @media (width: 1024px;) {
+    @media (width>= 1024px;) {
         max-width: 1024px;
     }
-    @media (width: 1280px;) {
+    @media (width>= 1280px;) {
         max-width: 1280px;
     }
-    @media (width: 1480px;) {
+    @media (width>= 1480px;) {
         max-width: 1480px;
     }
 }
@@ -138,6 +138,10 @@ Assim que definir elas, pode usar elas na className como se fosse um style */
     text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
 }
 
+@utility text-muted-foreground {
+    @apply text-foreground/60;
+}
+
 @utility card-hover {
     /* Exemplo de como codar o css com o tailwind */
     @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg;
@@ -145,7 +149,7 @@ Assim que definir elas, pode usar elas na className como se fosse um style */
 
 @utility gradient-border {
     @apply relative rounded-md;
-    background: linear-gradient (to right, hsl(var(--card)), hsl(var(--card)));
+    background: linear-gradient(to right, hsl(var(--card)), hsl(var(--card)));
     background-clip: padding-box;
     border: 1px solid transparent;
 }

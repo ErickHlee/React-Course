@@ -1,4 +1,5 @@
 import { HomeSection } from "../components/HomeSection";
+import { AboutSection } from "../components/AboutSection";
 import { Navbar } from "../components/Navbar";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
@@ -15,6 +16,7 @@ export const Home = () => {
       {/* Main Content */}
       <main>
         <HomeSection />
+        <AboutSection />
       </main>
       {/* Footer */}
     </div>

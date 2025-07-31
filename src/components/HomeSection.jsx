@@ -22,12 +22,14 @@ export const HomeSection = () => {
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             Currently studying at SPTech, majoring in Systems Analysis and
-            Development. This is my first React and Tailwind Project. I want to
-            be a good Front-End developer and develop beautiful web-pages.
+            Development. This is my first React and Tailwind Project.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a herf="projects" className="cosmic-button cursor-pointer">
+            <a
+              href="https://github.com/ErickHlee"
+              className="cosmic-button cursor-pointer"
+            >
               View My Work
             </a>
           </div>

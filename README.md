@@ -26,3 +26,6 @@ npm run dev
 Este projeto foi criado como parte do meu processo de aprendizado. Estou explorando os fundamentos do React e aprimorando minhas habilidades em criação de interfaces modernas e responsivas. É também uma forma de documentar minha evolução e compartilhar meus projetos com outras pessoas.
 
 📌 Sinta-se à vontade para clonar, estudar ou dar sugestões. Feedbacks são sempre bem-vindos!
+
+📌 [Video Referência](https://www.youtube.com/watch?v=ifOJ0R5UQOc&t=7521s&sttick=0)
+

@@ -8,7 +8,7 @@ export const Footer = () => {
       </p>
 
       <a
-        href="home"
+        href="#home"
         className="absolute right-10 bottom-25 p-2 rounded-full bg-primary/10 hover:pg-primary/20 text-primary transition-colors"
       >
         <ArrowUp />

@@ -1,26 +1,28 @@
-# React + Vite
+# Meu Portfólio Pessoal
 
-Configurando o ambiente:
-NPM INSTALL:
+Este é um projeto pessoal desenvolvido com **React + Vite**, com o objetivo de praticar e consolidar meus conhecimentos em desenvolvimento front-end.
 
+## 🚀 Tecnologias utilizadas
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/) _(opcional, caso esteja usando)_
+
+## 📦 Como rodar o projeto localmente
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/ErickHlee/React-Course
+cd React-Course
+npm install
+npm run dev
 ```
-tailwindcss
-@tailwindcss/vite
-lucide-react - ícones
-react-router-dom
-tailwind-merge
-@radix-ui/react-toast
-class-variance-authority
-clsx
-```
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+⚠️ Certifique-se de ter o Node.js instalado na sua máquina. Recomendado: versão 16 ou superior.
 
-Currently, two official plugins are available:
+## 🎯 Objetivo do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi criado como parte do meu processo de aprendizado. Estou explorando os fundamentos do React e aprimorando minhas habilidades em criação de interfaces modernas e responsivas. É também uma forma de documentar minha evolução e compartilhar meus projetos com outras pessoas.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📌 Sinta-se à vontade para clonar, estudar ou dar sugestões. Feedbacks são sempre bem-vindos!

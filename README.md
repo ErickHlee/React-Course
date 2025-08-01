@@ -6,7 +6,7 @@ Este é um projeto pessoal desenvolvido com **React + Vite**, com o objetivo de 
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
-- [TailwindCSS](https://tailwindcss.com/) _(opcional, caso esteja usando)_
+- [TailwindCSS](https://tailwindcss.com/)
 
 ## 📦 Como rodar o projeto localmente
 
